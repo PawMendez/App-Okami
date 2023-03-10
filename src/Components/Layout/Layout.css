@@ -1,0 +1,22 @@
+.header {
+  padding: 20px 40px;
+  background-color: rgb(24, 21, 43);
+  color: rgb(211, 186, 235);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.futer {
+  padding: 10px 10px;
+  background-color: rgb(24, 21, 43);
+  color: rgb(211, 186, 235);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.separation {
+  display: flex;
+  gap: 10px;
+}

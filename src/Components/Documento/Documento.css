@@ -1,6 +1,7 @@
 .document {
   color: rgb(211, 186, 235);
   padding-top: 30px;
+  padding-left: 30px;
   height: 100%;
   display: flex;
   align-items: flex-start;
@@ -9,10 +10,11 @@
 }
 
 .personalInformation {
-  padding: 10px 50px 50px 150px;
+  padding: 50px;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: inset 0 -3em 3em rgba(78, 78, 78, 0.1), 0 0 0 1px rgb(12, 12, 12),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.563);
+  border-radius: 3%;
 }
 
 .detallesFoto {
@@ -21,5 +23,18 @@
 }
 
 .classExp {
-  padding-right: 20rem;
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(78, 78, 78, 0.1), 0 0 0 1px rgb(12, 12, 12),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.563);
+  border-radius: 3%;
+}
+.fecha {
+  font-size: 0.67em;
+  font-weight: bold;
+}
+.titulo {
+  margin-block-end: 5px;
+}
+ul {
+  font-size: 0.9em;
 }

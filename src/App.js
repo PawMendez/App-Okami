@@ -1,12 +1,15 @@
 import logo from "./logo.svg";
-import Documento from "./Componentes/Documento/Documento";
+import Documento from "./Components/Documento/Documento";
 import "./App.css";
+import Layout from "./Components/Layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <Documento />
-    </div>
+    <Layout>
+      <div className="App">
+        <Documento />
+      </div>
+    </Layout>
   );
 }
 
